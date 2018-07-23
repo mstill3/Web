@@ -1,0 +1,6 @@
+app.controller('MainController', ['$scope', function($scope) {
+    //$scope.greeting = {id: 'xxx', content: 'Hello World!'};
+	$http.get('/resource/').success(function(data) {
+	    $scope.greeting = data;
+	});
+}]);
