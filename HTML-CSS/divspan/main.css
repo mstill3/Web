@@ -1,0 +1,12 @@
+div
+{
+    border: 1px solid red;
+    background-color: lightgray;
+    width: 250px;
+}
+
+span
+{
+    color: green;
+    text-decoration: underline;
+}
