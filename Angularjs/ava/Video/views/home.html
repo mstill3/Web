@@ -1,0 +1,23 @@
+<div class="main">
+    <div class="container">
+
+        <h2>Recent Photos</h2>
+        <div class="row">
+            <div class="item col-md-4" ng-repeat="photo in videos">
+                <a href="#/videos/{{$index}}">
+                    <img class="img-responsive" ng-src="{{ photo.url }}">
+                    <p class="author">by {{ photo.author }}</p>
+                </a>
+            </div>
+            
+                    <div id="video-player">
+            <video width="900" height="480" controls autoplay>
+                <source src="../vid/vid.mp4" type="video/mp4">
+                Your browser does not support the video tag
+            </video>
+        </div>
+
+        </div>
+
+    </div>
+</div>
