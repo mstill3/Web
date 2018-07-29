@@ -1,35 +1,34 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-5 col-sm-offset-7">
-            <h1> {{ fiveDay.city_name }} </h1>
-            <h2> 5-day forecast </h2>
-            <div class="forecast" ng-repeat="day in fiveDay.days">
-                <div class="day row">
+            <h1> Video Name: {{ json.videoName }} </h1>
+            <h3> Video Path: {{ json.videoPath }} </h3>
+            <h3> Video Duration: {{ json.videoDuration }} </h3>
+            <h3> Total Frames: {{ json.totalFrames }} </h3>
+            <h3> FPS: {{ json.FPS }} </h3>
+           
+            <h2> Frame Details </h2>
+            <div ng-repeat="frame in json.data">
+                <div>
 
-                    <!-- datetime -->
-                    <div class="weekday col-xs-4">
-                        {{ day.datetime | date }}
+                    <div>
+                        {{ frame.GeneralObjectsDetected }}
+                    </div>
+                    
+                    <div>
+                        {{ frame.timeStamp }}
                     </div>
 
-
-                    <!-- icon -->
-                    <div class="weather col-xs-3">
-                        <img ng-src="{{ day.icon }}">
+                    <div>
+                        {{ frame.frameNum }}
                     </div>
-
-                    <div class="col-xs-1"></div>
-
-
-                    <!-- high -->
-                    <div class="high col-xs-2">
-                        {{ day.high }}
+                    
+                    <!-- 
+                    <div>
+                        <img ng-src="{{ frame.imageBase64 }}">
                     </div>
+                    -->
 
-
-                    <!-- low -->
-                    <div class="low col-xs-2">
-                        {{ day.low }}
-                    </div>
                 </div>
             </div>
         </div>

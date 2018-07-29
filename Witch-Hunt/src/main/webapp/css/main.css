@@ -1,138 +1,85 @@
 *
 {
-    margin: 0;
-    padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    padding: 0px 0px;
+    margin: 0px;
 }
 
-body 
+body
 {
-    background: #eeeeee;
-}
-
-.tm-container
-{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.tm-header
-{
-    background: #fff;
-}
-
-.tm-header:after
-{
-    content: " ";
-    clear: both;
-    display: block;
-    visibility: none;
-}
-
-.tm-logo
-{
-    padding: 10px 0px;
-    float: left;
-}
-
-.tm-nav
-{
-    float: right;
-}
-
-.tm-nav ul
-{
-    margin-bottom: 0px;
-}
-
-.tm-nav ul li
-{
-    display: inline-block;
-}
-
-.tm-nav ul li a
-{
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #606060;
-    text-transform: uppercase;
-    line-height: 60px;
-}
-
-.tm-nav ul li a.active
-{
-    color: white;
-    background-color: cadetblue;
-}
-
-.tm-nav ul li a:hover
-{
-    color: white;
     background-color: darkgray;
 }
 
-p
+a
 {
-    margin-bottom: 20px;
+    color: black;
 }
 
-h1, h2, h3, h4, h5, h6
+.container-fluid
 {
-    margin-bottom: 10px;
+    padding: 0px;
 }
 
-ul, ol
+.navbar
+{
+    padding: 0px; 
+    background-color: rgb(250, 250, 250); 
+    border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+.navbar-header p
+{
+    float: right; 
+    padding: 10px 19px; 
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.nav-right
+{
+    float: right;
+}
+
+.question
+{
+    padding: 0px 10px;
+}
+
+.body-top
+{
+    background-color: rgb(80, 80, 80);
+    padding: 10px;
+}
+
+.body-top h1
+{
+    color: rgb(0, 195, 195);
+}
+
+.body-top p
+{
+    color: rgb(194, 195, 195);
+    margin: 10px;
+}
+
+.body-below
+{
+    background-color: rgb(120, 120, 120);
+    padding: 8px;
+}
+
+.body-below button
 {
     margin-left: 20px;
-    margin-bottom: 20px;
 }
 
-img
+.footer
 {
-    display: block;
-    max-width: 100%;
-}
-
-.tm-content
-{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    max-width: 70%;
-    float: left;
-}
-
-.tm-sidebar
-{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    max-width: 25%;
-    float: right;
-    width: 25%;
-}
-
-.tm-sidebar div
-{
-    background: white;
-    padding: 30px;
-}
-
-.tm-article
-{
-    background: white;
-    padding: 30px;
-}
-
-.clearfix:after
-{
-    content: " ";
-    clear: both;
-    display: block;
-    visibility: none;
-}
-
-.tm-footer
-{
-    background: white;
+    position: fixed;
+    left: 0;
+    bottom: 1px;
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+    border-top: 5px solid rgb(102, 102, 255);
     text-align: center;
-    padding: 20px;
+    padding: 6px;
 }
