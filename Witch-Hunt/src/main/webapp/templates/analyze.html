@@ -1,52 +1,47 @@
-
-    <div class="body-left container-fluid">
+<div class="row">
+    <div class="body-left container-fluid col" id="left">
         <div class="container">
-        
+
             <video width="100%" controls autoplay>
                 <source src="res/{{ json.videoName }}" type="video/mp4">
             </video>
-        
+
             <h1>
                 {{ json.videoName }}
             </h1>
             <p>
-                 Video Path: {{ json.videoPath }}
-                 <br/>
-                 Video Duration: {{ json.videoDuration }}
-                 <br/>
-                 Total Frames: {{ json.totalFrames }}
-                 <br/>
-                 FPS: {{ json.FPS }}
+                Video Path: {{ json.videoPath }}
+                <br/> Video Duration: {{ json.videoDuration }}
+                <br/> Total Frames: {{ json.totalFrames }}
+                <br/> FPS: {{ json.FPS }}
             </p>
         </div>
     </div>
-    
-    <div class="body-right container-fluid">
+
+    <div class="body-right container-fluid col">
         <div class="container">
-        <table class="table table-bordered table-hover">
-            	<thead>
-            		<tr>
-            			<th>
-            				Time Stamp
-               			</th>
-               			<th>
-               				Frame Number
-               			</th>
-              		</tr>
-             	</thead>
-            	<tbody>
-             		<tr ng-repeat="frame in json.data">
-              			<td>
-              				{{ frame.timeStamp }}
-              			</td>
-              			<td>
-              				{{ frame.frameNum }}
-              			</td>
-             		</tr>
-            	</tbody>
-         	</table>
+            <table class="table table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>
+                            Time Stamp
+                        </th>
+                        <th>
+                            Frame Number
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="frame in json.data">
+                        <td>
+                            {{ frame.timeStamp }}
+                        </td>
+                        <td>
+                            {{ frame.frameNum }}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
-    
-    <a href="#!/upload"> Go to upload! </a>
-   
+</div>

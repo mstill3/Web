@@ -12,39 +12,35 @@
 
 <body ng-app="MainApp">
 
-    <!-- NAVBAR -->
-    <div class="container-fluid">
-        <nav class="navbar">
-            <div class="navbar-header">
+    <!-- WELCOME -->
+    <div class="container-fluid" style="background-color:white;">
+        <div class="container">
+            <nav class="welcome">
                 <a href="#">
-                    <img src="images/all.png" width="50px" />
+                    <img src="images/braintrust.jpg" width="250px" />
                 </a>
-                <p>
-                    Azure Video Indexer
-                </p>
-            </div>
-            <div class="nav-right">
-                <a class="question" href="#">
-                    <img class="rounded-circle" src="images/question.png" width="40px">
-                </a>
-                <a href="#">
-                    <img class="rounded-circle" alt="Avatar" src="images/goose.jpg" width="50px">
-                </a>
-            </div>
-        </nav>
+                <div class="phone">
+                    410-799-3504
+                </div>
+            </nav>
+        </div>
     </div>
     <!--------------->
 
     <!-- CONTENT -->
-    <div ng-view></div>
+    <div class="clearfix">
+        <div class="container-fluid content">
+            <div ng-view></div>
+        </div>
+    </div>
     <!------------>
 
     <!-- FOOTER -->
 
     <div class="footer">
-        <a href="http://braintrust-us.com/">
-            <img alt="Brand" src="images/braintrust.jpg" width="150px" />
-        </a>
+        <p>
+            Copyright &copy; 2008-2018 BrainTrust All rights reserved
+        </p>
     </div>
     <!------------>
 

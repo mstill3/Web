@@ -1,129 +1,147 @@
-*
-{
+:root {
+    --dark-navy: #30344d;
+    --braintrust-blue: rgb(87, 133, 225);
+    --off-white: rgb(240, 240, 240);
+}
+
+* {
     padding: 0px 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
-body
-{
-    background-color: darkgray;
+a {
+    color: white;
 }
 
-video
-{
-	    background-color: black;
+body {
+    background-color: white;
 }
 
-.container-fluid
-{
-    padding: 0px;
+video {
+    background-color: lightgray;
 }
 
-.navbar
-{
-    padding: 0px; 
-    background-color: rgb(250, 250, 250); 
-    border-bottom: 5px solid rgb(0, 0, 0);
+.welcome {
+    padding-left: 0px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: white;
 }
 
-.navbar-header p
-{
-    float: right; 
-    padding: 10px 19px; 
-    margin-bottom: 0;
-    font-size: 20px;
-}
-
-.nav-right
-{
+.phone {
+	color: var(--dark-navy);
+	font-weight: bold;
+    padding-top: 12px;
     float: right;
+    font-size: 12px;
 }
 
-.question
-{
-    padding: 0px 10px;
+/* ===================================== */
+
+.body-top {
+    background-color: #30344d;
+    padding: 10px 10px;
 }
 
-.body-top
-{
-    background-color: rgb(80, 80, 80);
-    padding: 10px;
-}
-
-.body-top h1
-{
-    color: rgb(0, 195, 195);
-}
-
-.body-top p
-{
-    color: rgb(194, 195, 195);
+.body-top h1 {
+    color: rgb(240, 240, 240);
     margin: 10px;
 }
 
-.body-below
-{
-    background-color: rgb(120, 120, 120);
+.body-top p {
+    color: rgb(210, 210, 210);
+    margin: 10px;
+}
+
+.body-below {
+    background-color: var(--braintrust-blue);
+    /*background-color: rgb(140, 140, 140);*/
     padding: 8px;
 }
 
-.body-below button
-{
+.body-below button {
     margin-left: 20px;
 }
 
-.body-left
-{
-    position: fixed;
-    background-color: rgb(80, 80, 80);
-    padding: 10px;
-    width: 50%;
-    border-right: 20px solid rgb(120, 120, 120);
+.body-bottom {
+    background-color: var(--off-white);
+    padding: 60px;
+}
+
+.body-left {
+    background-color: var(--dark-navy);
+    border-right: 30px solid var(--braintrust-blue);
     float: left;
-    height: 88%;
 }
 
-.body-left h1
-{
-    color: rgb(0, 195, 195);
+.body-left h1 {
+    color: var(--braintrust-blue);
 }
 
-.body-left p
-{
+.body-left p {
     color: rgb(194, 195, 195);
     margin: 10px;
 }
 
-.body-right
-{
-    position: fixed;
-    background-color: darkgray;
+.body-right {
+    background-color: var(--off-white);
     color: black;
-    padding: 10px;
-    left: 50%;
-    width: 50%;
     float: right;
-    height: 88%;
 }
 
-.body-right table
-{
+.body-right table {
     margin: 10px;
 }
 
-th
-{
+.row {
+    display: flex;
+    /* equal height of the children */
+    max-width: 101%;
+}
+
+#left {
+    flex-basis: 60%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.col {
+    flex: 1;
+    /* additionally, equal width */
+    padding: 1em;
+    border-top: solid;
+    border-bottom: solid;
+}
+
+
+th {
     background-color: rgb(210, 210, 210);
 }
 
-.footer
-{
-    position: fixed;
-    left: 0;
-    bottom: 1px;
-    width: 100%;
-    background-color: rgb(250, 250, 250);
-    border-top: 5px solid rgb(102, 102, 255);
+/* ===================================== */
+
+.content {
+    padding: 0px 0px;
+}
+
+
+/* ===================================== */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer {
+    background-color: white;
     text-align: center;
-    padding: 6px;
+}
+
+.footer p {
+    padding: 20px 20px;
+    color: darkslategray;
+    margin: 0;
+    font-size: 13px;
 }

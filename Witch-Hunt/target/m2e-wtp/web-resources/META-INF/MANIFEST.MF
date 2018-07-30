@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: still
+Build-Jdk: 10.0.2
+Implementation-Title: newAva2
+Implementation-Version: 0.0.1
+Implementation-Vendor-Id: com.BrainTrustHoldingInterns
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/newAva2
+Created-By: Maven Integration for Eclipse
+

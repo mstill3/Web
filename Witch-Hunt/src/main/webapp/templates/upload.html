@@ -18,13 +18,19 @@
 <div class="body-below container-fluid">
     <div class="body-below container">
         <form>
-            <input class="btn btn-outline-dark" type="file" file-model="myForm.files[0]"/> <!-- multiple -->
-            <button class="btn btn-outline-dark" type="button" ng-click="doUploadFile()"> Upload </button>
+            <input class="btn btn-outline-light" type="file" file-model="myForm.files[0]" />
+            <!-- multiple -->
+            <button class="btn btn-outline-light" type="button" ng-click="doUploadFile()"> Upload </button>
         </form>
         <div style="padding: 5px;">
             <span ng-bind="uploadResult"></span>
         </div>
         <a href="#!/analyze"> Go to analysis! </a>
+    </div>
+</div>
+
+<div class="body-bottom container-fluid">
+    <div class="body-bottom container">
     </div>
 </div>
 
