@@ -17,20 +17,13 @@
 
 <div class="body-below container-fluid">
     <div class="body-below container">
-        <!--
-        <button class="btn btn-outline-dark"> Browse </button>
-        <button class="btn btn-outline-dark"> Upload </button> -->
         <form>
-            Description: <br/>
-            <input type="text" name="description" ng-model="myForm.description" style="width:350px;" />
-            <br/><br/> File to upload: <input class="btn btn-outline-dark" type="file" file-model="myForm.files[0]" /><br />
-            <button class="btn btn-outline-dark" type="button" ng-click="doUploadFile()">Upload</button>
+            <input class="btn btn-outline-dark" type="file" file-model="myForm.files[0]"/> <!-- multiple -->
+            <button class="btn btn-outline-dark" type="button" ng-click="doUploadFile()"> Upload </button>
         </form>
-        <h2>Upload Results:</h2>
-        <div style="border:1px solid #ccc;padding: 5px;">
+        <div style="padding: 5px;">
             <span ng-bind="uploadResult"></span>
         </div>
-
         <a href="#!/analyze"> Go to analysis! </a>
     </div>
 </div>
