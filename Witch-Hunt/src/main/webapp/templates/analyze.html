@@ -20,28 +20,25 @@
 
     <div class="body-right container-fluid col">
         <div class="container">
-            <table class="table table-bordered table-hover">
-                <thead>
-                    <tr>
-                        <th>
-                            Time Stamp
-                        </th>
-                        <th>
-                            Frame Number
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr ng-repeat="frame in json.data">
-                        <td>
-                            {{ frame.timeStamp }}
-                        </td>
-                        <td>
-                            {{ frame.frameNum }}
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="body-right container-fluid" >
+                <div class="container">
+
+                    <h1>Objects Detected</h1>
+
+                    <div class="dropdown">
+                        <li style="list-style-type: none; margin: 10px;display: inline-grid;" ng-repeat="(key, obj) in json.genObjsAnalysis">
+                            <button class="btn btn-light dropdown-toggle" type="button" data-toggle="dropdown">Object: {{key}} - Avg conf: {{obj.averageConf | number}}%
+                                <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li>Highest Frame Conf:{{obj.highestConfFrame | number}}</li>
+                                <li>Lowest Conf:{{obj.lowestConf | number}}%</li>
+                                <li>Highest Conf:{{obj.highestConf | number}}%</li>
+                                <li>More Info</li>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
         </div>
+    </div>
     </div>
 </div>
