@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+
+<head>
+    <title> AVA - Video Analyzer </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body ng-app="MainApp">
+
+    <!-- NAVBAR -->
+    <div class="container-fluid">
+        <nav class="navbar">
+            <div class="navbar-header">
+                <a href="#">
+                    <img src="images/all.png" width="50px" />
+                </a>
+                <p>
+                    Azure Video Indexer
+                </p>
+            </div>
+            <div class="nav-right">
+                <a class="question" href="#">
+                    <img class="rounded-circle" src="images/question.png" width="40px">
+                </a>
+                <a href="#">
+                    <img class="rounded-circle" alt="Avatar" src="images/goose.jpg" width="50px">
+                </a>
+            </div>
+        </nav>
+    </div>
+    <!--------------->
+
+    <!-- CONTENT -->
+    <div ng-view></div>
+    <!------------>
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+        <a href="http://braintrust-us.com/">
+            <img alt="Brand" src="images/braintrust.jpg" width="150px" />
+        </a>
+    </div>
+    <!------------>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+
+    <!-- Modules -->
+    <script src="js/app.js"></script>
+
+    <!-- Controllers -->
+    <script src="js/controllers/UploadFileController.js"></script>
+    <script src="js/controllers/GetFilesController.js"></script>
+    <script src="js/controllers/AnalysisController.js"></script>
+
+    <!-- Services -->
+    <script src="js/services/analysis.js"></script>
+
+    <!-- Directives -->
+    <script src="js/directives/fileModel.js"></script>
+
+</body>
+
+</html>

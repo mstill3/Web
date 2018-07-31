@@ -1,3 +1,7 @@
+/* ===================================== */
+/*		GLOBAL
+/* ===================================== */
+
 :root {
     --dark-navy: #30344d;
     --braintrust-blue: rgb(87, 133, 225);
@@ -14,13 +18,25 @@ a {
     color: white;
 }
 
+a:hover {
+    color: lightgray;
+}
+
 body {
     background-color: white;
 }
 
 video {
     background-color: lightgray;
+    max-width: 98%;
+    max-height:98%;
+    height: auto;
 }
+
+
+/* ===================================== */
+/*		WELCOME
+/* ===================================== */
 
 .welcome {
     padding-left: 0px;
@@ -37,6 +53,24 @@ video {
     font-size: 12px;
 }
 
+
+/* ===================================== */
+/*		CONTENT
+/* ===================================== */
+
+.content {
+    padding: 0px 0px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* ===================================== */
+/*		UPLOAD CONTENT
 /* ===================================== */
 
 .body-top {
@@ -64,28 +98,46 @@ video {
     margin-left: 20px;
 }
 
+.body-below label {
+	margin-top: 10px;
+    margin-left: 20px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
 .body-bottom {
     background-color: var(--off-white);
-    padding: 60px;
+    padding: 4.5%;
 }
+
+
+/* ===================================== */
+/*		ANALYZE CONTENT
+/* ===================================== */
 
 .body-left {
     background-color: var(--dark-navy);
     border-right: 30px solid var(--braintrust-blue);
+    padding-top: 15px;
     float: left;
 }
 
 .body-left h1 {
+	margin: 10px;
     color: var(--braintrust-blue);
 }
 
 .body-left p {
     color: rgb(194, 195, 195);
-    margin: 10px;
+    margin: 20px;
+    margin-bottom: 30px;
 }
 
 .body-right {
     background-color: var(--off-white);
+    padding-top: 5px;
     color: black;
     float: right;
 }
@@ -97,7 +149,7 @@ video {
 .row {
     display: flex;
     /* equal height of the children */
-    max-width: 101%;
+    max-width: 100%;
 }
 
 #left {
@@ -109,9 +161,6 @@ video {
 .col {
     flex: 1;
     /* additionally, equal width */
-    padding: 1em;
-    border-top: solid;
-    border-bottom: solid;
 }
 
 
@@ -119,20 +168,10 @@ th {
     background-color: rgb(210, 210, 210);
 }
 
-/* ===================================== */
-
-.content {
-    padding: 0px 0px;
-}
-
 
 /* ===================================== */
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
+/*		FOOTER
+/* ===================================== */
 
 .footer {
     background-color: white;

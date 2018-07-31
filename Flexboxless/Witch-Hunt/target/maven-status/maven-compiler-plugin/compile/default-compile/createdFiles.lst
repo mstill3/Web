@@ -1,0 +1,6 @@
+salem\restcontroller\MainRESTController.class
+salem\SalemApplication.class
+salem\controller\MainController.class
+salem\form\UploadForm.class
+salem\exceptionhandler\RestGlobalExceptionHandler.class
+salem\ServletInitializer.class

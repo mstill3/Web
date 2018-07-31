@@ -1,0 +1,41 @@
+<!-- HOME -->
+<div class="body-top container-fluid">
+    <div class="body-top container">
+        <h1>
+            Azure Video Analyzer
+        </h1>
+
+        <p>
+            This project will analyze videos for any occurances of the french flag.
+            <br/> It will provide confidence levels of identification certainty and number of occurances within the video.
+        </p>
+        <p>
+            Please select Browse to choose the video you would like anlazyed, and then select Upload to begin:
+        </p>
+    </div>
+</div>
+
+<div class="body-below container-fluid">
+    <div class="body-below container">
+        <form>
+            <input class="btn btn-outline-dark" type="file" file-model="myForm.files[0]"/> <!-- multiple -->
+            <button class="btn btn-outline-dark" type="button" ng-click="doUploadFile()"> Upload </button>
+        </form>
+        <div style="padding: 5px;">
+            <span ng-bind="uploadResult"></span>
+        </div>
+        <a href="#!/analyze"> Go to analysis! </a>
+    </div>
+</div>
+
+<!---------->
+
+<!-- Get Files 
+      <hr>
+      <div ng-controller="GetFilesController">
+         <button type="button" ng-click="getAllFiles()">Get All Files</button>
+         <ul>
+            <li ng-repeat="file in allFiles">
+               <a href='/files/{{file}}'>{{file}}</a>
+            </li>
+         </ul>  -->

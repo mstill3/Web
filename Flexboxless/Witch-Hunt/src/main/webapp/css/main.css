@@ -1,0 +1,192 @@
+/* ===================================== */
+/*		GLOBAL
+/* ===================================== */
+
+:root {
+    --dark-navy: #30344d;
+    --braintrust-blue: rgb(87, 133, 225);
+    --off-white: rgb(240, 240, 240);
+}
+
+* {
+    padding: 0px 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: lightgray;
+}
+
+body {
+    background-color: var(--off-white);
+}
+
+video {
+    background-color: lightgray;
+    max-width: 96%;
+    height: auto;
+}
+
+
+/* ===================================== */
+/*		WELCOME
+/* ===================================== */
+
+.welcome {
+    padding-left: 0px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: white;
+}
+
+.phone {
+	color: var(--dark-navy);
+	font-weight: bold;
+    padding-top: 12px;
+    float: right;
+    font-size: 12px;
+}
+
+
+/* ===================================== */
+/*		CONTENT
+/* ===================================== */
+
+.content {
+    padding: 0px 0px;
+    overflow-y: scroll;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* ===================================== */
+/*		UPLOAD CONTENT
+/* ===================================== */
+
+.body-top {
+    background-color: #30344d;
+    padding: 10px 10px;
+}
+
+.body-top h1 {
+    color: rgb(240, 240, 240);
+    margin: 10px;
+}
+
+.body-top p {
+    color: rgb(210, 210, 210);
+    margin: 10px;
+}
+
+.body-below {
+    background-color: var(--braintrust-blue);
+    /*background-color: rgb(140, 140, 140);*/
+    padding: 8px;
+}
+
+.body-below button {
+    margin-left: 20px;
+}
+
+.body-below label {
+	margin-top: 10px;
+    margin-left: 20px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.body-bottom {
+    background-color: var(--off-white);
+    padding: 60px;
+}
+
+
+/* ===================================== */
+/*		ANALYZE CONTENT
+/* ===================================== */
+
+.body-left {
+    background-color: var(--dark-navy);
+    border-right: 30px solid var(--braintrust-blue);
+    float: left;
+    width: 60%;
+    padding: 10px;
+    padding-bottom: 4%;
+}
+
+.body-left h1 {
+    color: var(--braintrust-blue);
+}
+
+.body-left p {
+    color: rgb(194, 195, 195);
+    margin: 10px;
+}
+
+.body-right {
+    background-color: var(--off-white);
+    color: black;
+    float: right;
+    width: 40%;
+}
+
+.body-right table {
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+    /* equal height of the children */
+    max-width: 101%;
+}
+
+#left {
+    flex-basis: 60%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.col {
+    flex: 1;
+    /* additionally, equal width */
+    padding: 1em;
+    border-top: solid;
+    border-bottom: solid;
+}
+
+
+th {
+    background-color: rgb(210, 210, 210);
+}
+
+
+/* ===================================== */
+/*		FOOTER
+/* ===================================== */
+
+.footer {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+.footer p {
+    padding: 20px 20px;
+    color: darkslategray;
+    margin: 0;
+    font-size: 13px;
+}
