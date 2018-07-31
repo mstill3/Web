@@ -30,13 +30,40 @@
                             <button class="btn btn-light dropdown-toggle" type="button" data-toggle="dropdown">Object: {{key}} - Avg conf: {{obj.averageConf | number}}%
                                 <span class="caret"></span></button>
                             <ul class="dropdown-menu">
-                                <li>Highest Frame Conf:{{obj.highestConfFrame | number}}</li>
+                                <li>Highest Frame Conf:{{obj.highestConfFrame | number}}
+                                </li>
                                 <li>Lowest Conf:{{obj.lowestConf | number}}%</li>
                                 <li>Highest Conf:{{obj.highestConf | number}}%</li>
                                 <li>More Info</li>
                             </ul>
                         </li>
                     </div>
+
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Modal Header</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Some text in the modal.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
                 </div>
         </div>
     </div>

@@ -2,94 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b58b6653-684f-4c2e-a291-4593fc5cb929" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/json/meta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/salem/salemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/salem/SalemApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/services/analysis.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/services/analysis.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/json/gold.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/json/weather.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/analyze.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/templates/analyze.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/salem/salemApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/salem/SalemApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/salem/ServletInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/salem/controller/MainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/salem/exceptionhandler/RestGlobalExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/salem/form/UploadForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/salem/restcontroller/MainRESTController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/salem/salemApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.BrainTrustHoldingInterns/newAva2/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.BrainTrustHoldingInterns/newAva2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1.war.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/classes/salem/ServletInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/classes/salem/controller/MainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/classes/salem/exceptionhandler/RestGlobalExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/classes/salem/form/UploadForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/classes/salem/restcontroller/MainRESTController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/classes/salem/salemApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/classes/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/attoparser-2.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/hibernate-validator-6.0.10.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/jackson-core-2.9.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/jackson-databind-2.9.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/jackson-datatype-jdk8-2.9.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/jackson-datatype-jsr310-2.9.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/jackson-module-parameter-names-2.9.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/log4j-api-2.10.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/log4j-to-slf4j-2.10.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/snakeyaml-1.19.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/spring-aop-5.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/spring-beans-5.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/spring-boot-2.0.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/spring-boot-autoconfigure-2.0.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/spring-boot-starter-2.0.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/spring-boot-starter-json-2.0.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/spring-boot-starter-logging-2.0.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/spring-boot-starter-thymeleaf-2.0.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/spring-boot-starter-web-2.0.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/spring-context-5.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/spring-core-5.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/spring-expression-5.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/spring-jcl-5.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/spring-web-5.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/spring-webmvc-5.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/thymeleaf-3.0.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/thymeleaf-extras-java8time-3.0.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/thymeleaf-spring5-3.0.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/unbescape-1.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/WEB-INF/lib/validation-api-2.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/images/all.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/images/braintrust.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/images/goose.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/images/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/js/controllers/AnalysisController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/js/controllers/GetFilesController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/js/controllers/UploadFileController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/js/directives/fileModel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/js/services/analysis.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/json/gold.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/json/weather.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/res/vid.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/templates/analyze.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/templates/upload.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2018-07-29T23-42-52_300.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-salem.salemApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/salem.salemApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/salem/salemApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/newAva2-0.0.1.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/newAva2-0.0.1.war.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/newAva2-0.0.1/templates/analyze.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/newAva2-0.0.1/templates/analyze.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-salem.salemApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-salem.salemApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/salem.salemApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/salem.salemApplicationTests.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -124,7 +43,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="4" />
+          <entry key="html" value="22" />
           <entry key="java" value="2" />
           <entry key="js" value="5" />
           <entry key="json" value="1" />
@@ -132,7 +51,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="4" />
+          <entry key="HTML" value="22" />
           <entry key="JAVA" value="2" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="5" />
@@ -142,13 +61,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/analyze.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="88" selection-start-line="32" selection-start-column="88" selection-end-line="32" selection-end-column="88" />
+            <state relative-caret-position="393">
+              <caret line="51" column="77" lean-forward="true" selection-start-line="51" selection-start-column="77" selection-end-line="51" selection-end-column="77" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#2161#2168#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/salem/SalemApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -212,8 +132,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/webapp/json/gold.json" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/services/analysis.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/templates/analyze.html" />
         <option value="$PROJECT_DIR$/src/main/java/salem/salemApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/templates/analyze.html" />
       </list>
     </option>
   </component>
@@ -223,7 +143,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-1489" />
     <option name="y" value="184" />
     <option name="width" value="974" />
@@ -312,7 +232,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533057038013" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533063109096" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -347,15 +267,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533056580370</updated>
-      <workItem from="1533056584724" duration="657000" />
+      <workItem from="1533056584724" duration="4362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="657000" />
+    <option name="totallyTimeSpent" value="4362000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -419,13 +340,10 @@
         <state relative-caret-position="-236" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/analyze.html">
+    <entry file="file://$PROJECT_DIR$/src/test/java/salem/SalemApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="88" selection-start-line="32" selection-start-column="88" selection-end-line="32" selection-end-column="88" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -436,10 +354,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/salem/SalemApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/analyze.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="393">
+          <caret line="51" column="77" lean-forward="true" selection-start-line="51" selection-start-column="77" selection-end-line="51" selection-end-column="77" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#2161#2168#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
