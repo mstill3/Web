@@ -19,4 +19,5 @@ mainApp.controller('GetFilesController', function ($scope, $http) {
             }
         );
     };
+
 });

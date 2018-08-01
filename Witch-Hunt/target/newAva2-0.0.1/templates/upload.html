@@ -2,7 +2,7 @@
 <div class="body-top container-fluid">
     <div class="body-top container">
         <h1>
-            <b>A</b>ccurate <b>V</b>ideo <b>A</b>nalyzer
+            <b>$</b>nipe <b>H</b>unt
         </h1>
 
         <p>
@@ -27,6 +27,22 @@
         <div style="padding: 5px;">
             <span ng-bind="uploadResult"></span>
         </div>
+
+        <div ng-controller="GetFilesController">
+            <button type="button" ng-click="getAllFiles()">Get All Files</button>
+
+            <ul>
+                <li style="list-style-type: none; margin: 10px;display: inline-grid;" ng-repeat="file in allFiles">
+                    <video width="320" height="240" poster="" controls>
+                        <source src="{{file}}" type="video/mp4">
+                    </video>
+
+                </li>
+            </ul>
+
+
+
+        </div>
         <a href="#!/analyze"> Go to analysis! </a>
     </div>
 </div>
@@ -37,6 +53,19 @@
 </div>
 
 <!---------->
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- Get Files 
       <hr>

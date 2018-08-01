@@ -29,6 +29,7 @@
                         <li style="list-style-type: none; margin: 10px;display: inline-grid;" ng-repeat="(key, obj) in json.genObjsAnalysis">
                             <button class="btn btn-light dropdown-toggle" type="button" data-toggle="dropdown">Object: {{key}} - Avg conf: {{obj.averageConf | number}}%
                                 <span class="caret"></span></button>
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">{{key}}</button>
                             <ul class="dropdown-menu">
                                 <li>Highest Frame Conf:{{obj.highestConfFrame | number}}
                                 </li>
@@ -39,7 +40,6 @@
                         </li>
                     </div>
 
-                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
 
                     <!-- Modal -->
                     <div class="modal fade" id="myModal" role="dialog">
@@ -52,7 +52,24 @@
                                     <h4 class="modal-title">Modal Header</h4>
                                 </div>
                                 <div class="modal-body">
-                                    <p>Some text in the modal.</p>
+                                    <table class="table">
+                                        <thead>
+                                        <tr>
+                                            <th>Detected Object</th>
+                                            <th>Time Stamp</th>
+                                            <th>Frame Number</th>
+                                            <th>Frame Image</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>{{json.GeneralObjectsDetected}}</td>
+                                            <td>{{json.timeStamp}}</td>
+                                            <td>{{json.frameNum}}</td>
+                                            <td><img style="width:40%" data-ng-src="data:image/jpg;base64,{{json.imageBase64}}"></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -61,6 +78,9 @@
 
                         </div>
                     </div>
+
+
+
 
 
 

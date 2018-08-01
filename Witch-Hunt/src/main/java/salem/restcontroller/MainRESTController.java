@@ -86,7 +86,7 @@ public class MainRESTController
 		File uploadDir = new File(UPLOAD_DIR);
 		File[] files = uploadDir.listFiles();
 
-		List<String> list = new ArrayList<String>();
+		List<String> list = new ArrayList<>();
 		for (File file : files)
 			list.add(file.getName());
 
