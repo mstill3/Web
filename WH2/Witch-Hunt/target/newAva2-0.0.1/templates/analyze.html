@@ -1,0 +1,71 @@
+<div class="row">
+    <div class="body-left container-fluid col" id="left">
+        <div class="container">
+
+            <video width="100%" controls autoplay>
+                <source src="res/{{ json.videoName }}" type="video/mp4">
+            </video>
+
+            <h1>
+                {{ json.videoName }}
+            </h1>
+            <p>
+                Video Path: {{ json.videoPath }}
+                <br/> Video Duration: {{ json.videoDuration }}
+                <br/> Total Frames: {{ json.totalFrames }}
+                <br/> FPS: {{ json.FPS }}
+            </p>
+        </div>        
+    </div>
+
+    <div class="body-right container-fluid col">
+        <div class="container">
+            <div class="body-right container-fluid" >
+                <div class="container">
+
+                    <h1>Objects Detected</h1>
+
+                    <div class="dropdown">
+                        <li style="list-style-type: none; margin: 10px;display: inline-grid;" ng-repeat="(key, obj) in json.genObjsAnalysis">
+                            <button class="btn btn-light dropdown-toggle" type="button" data-toggle="dropdown">Object: {{key}} - Avg conf: {{obj.averageConf | number}}%
+                                <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li>Highest Frame Conf:{{obj.highestConfFrame | number}}
+                                </li>
+                                <li>Lowest Conf:{{obj.lowestConf | number}}%</li>
+                                <li>Highest Conf:{{obj.highestConf | number}}%</li>
+                                <li>More Info</li>
+                            </ul>
+                        </li>
+                    </div>
+
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Modal Header</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Some text in the modal.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+        </div>
+    </div>
+    </div>
+</div>
